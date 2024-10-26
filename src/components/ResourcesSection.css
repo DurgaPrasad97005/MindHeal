@@ -1,0 +1,42 @@
+.resources-container {
+    background-color: #ebeeff;
+    margin: 10px 20px;
+    padding: 15px;
+}
+
+.resources-heading {
+    margin: 5px 0;
+    background-color: #002183;
+    color: whitesmoke;
+    width: fit-content;
+    padding: 3px 15px;
+    border-radius: 5px;
+}
+
+.resources-description {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.resources-section {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+.resources-card {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card-img {
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-title {
+    padding: 5px 0;
+}

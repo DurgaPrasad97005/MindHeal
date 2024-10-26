@@ -1,0 +1,17 @@
+.help-container {
+    margin: 10px 20px;
+}
+
+.help-intro {
+    width: 60%;
+    margin: 100px 0 100px 150px;
+}
+
+.help-intro h1 {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.help-intro p {
+    font-size: 20px;
+}

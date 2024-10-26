@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(201, 197, 197);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 0px 10px;
+}
+
+a {
+    font-size: large;
+    text-decoration: none;
+    background-color: #002183;
+    color: whitesmoke;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 5px 10px;
+}

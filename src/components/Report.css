@@ -1,0 +1,25 @@
+.report {
+    margin: 50px 150px 0;
+    width: 60%;
+}
+
+.report > h3 {
+    font-size: 25px;
+}
+
+.report > div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 20vh;
+    justify-content: space-evenly;
+}
+
+.report > div > textarea {
+    height: 50px;
+    padding: 5px;
+}
+
+.report > div > input {
+    padding: 5px;
+}

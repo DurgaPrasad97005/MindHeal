@@ -1,0 +1,11 @@
+.terms {
+    margin: 0 150px;
+}
+
+.terms > h3 {
+    font-size: 25px;
+}
+
+.terms > ul {
+    list-style: none;
+}

@@ -1,0 +1,8 @@
+.contact {
+    margin-left: 150px;
+}
+
+.contact > h3 {
+    font-size: 25px;
+    margin: 10px 0;
+}

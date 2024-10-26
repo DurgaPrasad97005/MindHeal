@@ -1,0 +1,11 @@
+.help-resources {
+    margin: 0 150px 50px;
+}
+
+.help-resources > p {
+    margin-bottom: 3px;
+}
+
+.help-resources > ul {
+    list-style: none;
+}

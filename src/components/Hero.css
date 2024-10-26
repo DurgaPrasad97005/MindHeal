@@ -1,0 +1,31 @@
+.hero {
+    background-image: url("../images/beach.jpg");
+    height: 80vh;
+    width: 100%;
+    margin: 10px 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+}
+
+.hero-container {
+    margin: 100px 100px 0 0;
+}
+
+.headline {
+    color: #002183;
+    text-shadow: 3px  5px 10px whitesmoke;
+    font-variant: small-caps;
+    font-size: 70px;
+}
+
+.tagline {
+    color: #002183;
+    text-align: end;
+    font-size: 30px;
+    text-shadow: 3px  5px 10px whitesmoke;
+}
