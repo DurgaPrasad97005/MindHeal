@@ -6,7 +6,6 @@ export default function AboutFounder() {
         <div className="about-container">
             <div className="about-founder">
                 <div className="founder-col founder-img">
-                    {/* <img src="#" alt="" /> */}
                     image
                 </div>
                 <div className="founder-col founder-content">

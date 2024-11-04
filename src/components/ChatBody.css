@@ -1,0 +1,39 @@
+.chat-body-container {
+    width: 70%;
+    height: 85vh;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    position: relative;
+    color: #2a2a2a;
+}
+
+.chat-wrapper {
+    overflow-y: auto;
+    /* scroll-behavior: smooth; */
+    /* scroll-behavior: auto; */
+    /* scroll-snap-type: y mandatory;
+    scroll-snap-align: end; */
+    scrollbar-width: none;
+    height: 90%;
+}
+
+.prompt {
+    width: 70%;
+    float: right;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    background-color: #1cfd5559;
+}
+
+.response {
+    clear: both;
+    width: 70%;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    background-color: white;
+}

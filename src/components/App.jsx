@@ -8,6 +8,7 @@ import Services from "../pages/Services"
 import Resources from "../pages/Resources"
 import Store from "../pages/Store"
 import Help from "../pages/Help"
+import HealChat from "../pages/HealChat";
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/resources" element={<Resources />} />
                 <Route path="/store" element={<Store />} />
                 <Route path="/help" element={<Help />} />
+                <Route path="/healchat" element={<HealChat />} />
             </Routes>
         </div>
     )
