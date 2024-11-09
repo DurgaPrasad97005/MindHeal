@@ -2,10 +2,12 @@ import React from "react";
 import ResourcesSection from "../components/ResourcesSection";
 import image from "../images/cardImg.jpg";
 import Footer from "../components/Footer"
+import Navbar from "../components/Navbar"
 
 function Resources() {
     return (
         <div>
+            <Navbar />
             <ResourcesSection 
                 heading = "Books"
                 content = "Content for the books"

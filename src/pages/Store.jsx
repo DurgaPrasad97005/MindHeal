@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "../store components/header/Header";
 
 function Store() {
     return (
-        <div>Store</div>
+        <div>
+            <Header />
+        </div>
     )
 }
 
