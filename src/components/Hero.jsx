@@ -5,7 +5,7 @@ function Hero() {
     return (
         <div className="hero">
             <div className="hero-container">
-                <h1 className="headline">Welcome To MindHeal</h1>
+                <h1 className="headline">MindHeal</h1>
                 <h3 className="tagline">Navigating Mental Wellness Together</h3>
             </div>
         </div>

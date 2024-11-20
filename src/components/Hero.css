@@ -14,18 +14,28 @@
 
 .hero-container {
     margin: 100px 100px 0 0;
+    margin: 110px auto;
+    border-radius: 5px;
+    background-color: white;
+    height: 50%;
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .headline {
-    color: #002183;
+    /* color: #002183; */
+    /* color: orange; */
     text-shadow: 3px  5px 10px whitesmoke;
     font-variant: small-caps;
     font-size: 70px;
 }
 
 .tagline {
-    color: #002183;
-    text-align: end;
+    /* color: #002183; */
+    color: orange;
     font-size: 30px;
     text-shadow: 3px  5px 10px whitesmoke;
 }
