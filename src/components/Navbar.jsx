@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
-        <nav>
-            <Link to="/" >Home</Link>
+        <nav className="nav-container">
+            <div><Link className="a-nav" to="/" >MindHeal</Link><div className="a-nav-underline"></div></div>
 
             <ul>
-                <li><Link to="/about" >About</Link></li>
-                <li><Link to="/services">Services</Link></li>
-                <li><Link to="/resources">Resources</Link></li>
-                <li><Link to="/store">Store</Link></li>
-                <li><Link to="/help">Help</Link></li>
+                <li><Link className="a-nav" to="/about" >About</Link><hr className="a-nav-underline"></hr></li>
+                <li><Link className="a-nav" to="/services">Services</Link><hr className="a-nav-underline"></hr></li>
+                <li><Link className="a-nav" to="/resources">Resources</Link><hr className="a-nav-underline"></hr></li>
+                <li><Link className="a-nav" to="/store">Store</Link><hr className="a-nav-underline"></hr></li>
+                <li><Link className="a-nav" to="/help">Help</Link><hr className="a-nav-underline"></hr></li>
             </ul>
         </nav>
     )
