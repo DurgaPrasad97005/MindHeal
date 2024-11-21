@@ -2,7 +2,6 @@
     background-image: url("../images/beach.jpg");
     height: 100vh;
     width: 100%;
-    /* margin: 10px 20px; */
     background-size: contain;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,16 +25,13 @@
 }
 
 .headline {
-    /* color: #002183; */
-    /* color: orange; */
-    text-shadow: 3px  5px 10px whitesmoke;
+    color: rgb(255, 0, 0);
     font-variant: small-caps;
     font-size: 70px;
 }
 
 .tagline {
-    /* color: #002183; */
-    color: orange;
+    color: #FF8000;
     font-size: 30px;
     text-shadow: 3px  5px 10px whitesmoke;
 }

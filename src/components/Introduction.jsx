@@ -3,11 +3,16 @@ import "./Introduction.css"
 import { Link } from "react-router-dom";
 
 function Introduction() {
+    const imgurl = "https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/855/2017/04/03130737/mental-health-2019924_1920-1024x682.jpg";
     return (
         <div className="introduction">
             <div className="intro">
-                <h1>Introduction</h1>
-                <p>Welcome to MindHeal.<br />Nurturing Mental Wellness, Empowering Your Journey. <br />MindHeal is a supportive community dedicated to helping individuals prioritize their mental health and well-being. Our mission is to provide accessible resources, guidance, and connection to foster a healthier, happier you.</p>
+                <img className="intro-image" src={imgurl} alt="" />
+
+                <div>
+                    <h1>Introduction</h1>
+                    <p>Welcome to MindHeal.<br />Nurturing Mental Wellness, Empowering Your Journey. <br />MindHeal is a supportive community dedicated to helping individuals prioritize their mental health and well-being. Our mission is to provide accessible resources, guidance, and connection to foster a healthier, happier you.</p>
+                </div>
             </div>
 
             <div className="empower">
