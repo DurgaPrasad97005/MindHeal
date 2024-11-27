@@ -2,11 +2,9 @@
     margin: 20px 0;
 }
 
-.empower, 
-.goal, 
-.expect {
+/* .expect {
     margin-top: 20px;
-}
+} */
 
 .intro {
     background-color: #002183;
@@ -37,9 +35,23 @@
     margin-top: 10px;
 }
 
-.empower h1, 
-.goal h1, 
-.expect h1 {
+.empower, .goal, .expect {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ebeeff;
+    margin-top: 5px;
+}
+
+.empower-image {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+/* .expect h1 {
     margin: 10px 0;
     font-size: 30px;
     background-color: #002183;
@@ -47,7 +59,7 @@
     width: 40%;
     padding: 5px 20px;
     border-radius: 5px;
-}
+} */
 
 .empower p, 
 .empower ul, 
@@ -55,10 +67,9 @@
 .expect ul {
     font-size: larger;
     background-color: #ebeeff;
-    padding: 10px;
+    padding-top: 10px;
     border-radius: 5px;
 }
-
 
 .empower ul, .expect ul {
     list-style: none;
@@ -66,6 +77,16 @@
 
 .empower span {
     font-weight: bolder;
+}
+
+.goal-image {
+    width: 300px;
+    margin-left: 20px;
+}
+
+.expect-image {
+    width: 300px;
+    margin-right: 20px;
 }
 
 .chatbot-btn, .chatbot-link {

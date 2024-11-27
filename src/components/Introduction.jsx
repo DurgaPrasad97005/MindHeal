@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 
 function Introduction() {
     const imgurl = "https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/855/2017/04/03130737/mental-health-2019924_1920-1024x682.jpg";
+    const empowerImage = "https://domf5oio6qrcr.cloudfront.net/medialibrary/14528/3f85b1b1-9dc7-4a90-855c-dc204646e889.jpg";
+    const brainImage = "https://www.ualberta.ca/en/human-resources-health-safety-environment/media-library/communications/health/images/healthy-mind-header.jpg";
+    const person = "https://homeforlifeadvantage.com/wp-content/uploads/2021/05/mental-health-blog.jpg";
     return (
         <div className="introduction">
             <div className="intro">
@@ -16,31 +19,43 @@ function Introduction() {
             </div>
 
             <div className="empower">
-                <h1>Empowering Your Mental Wellbeing</h1>
-                <p>At MindHeal, we understand that maintaining good mental health is crucial for a happy and fulfilling life. Our platform offers a comprehensive collection of resources, tools, and guidance to help you navigate life's challenges and cultivate a healthier mindset. Our content is carefully curated to provide you with:</p>
-                <ul>
-                    <li>-<span>Informative articles</span> on mental health topics, written by experts and individuals who have experienced similar struggles</li>
-                    <li>-<span>Engaging videos</span> on mindfulness, self-care, and stress management techniques</li>
-                    <li>-<span>Practical exercises</span> and worksheets to help you develop coping strategies and resilience</li>
-                    <li>-<span>Personal stories</span> of hope and recovery, inspiring you to take control of your mental wellbeing</li>
-                    <li>-<span>Useful tips</span> and advice on maintaining a healthy work-life balance, relationships, and overall wellbeing</li>
-                </ul>
+                <img className="empower-image" src={empowerImage} alt="" />
+
+                <div>
+                    <h1>Empowering Your Mental Wellbeing</h1>
+                    <p>At MindHeal, we understand that maintaining good mental health is crucial for a happy and fulfilling life. Our platform offers a comprehensive collection of resources, tools, and guidance to help you navigate life's challenges and cultivate a healthier mindset. Our content is carefully curated to provide you with:</p>
+                    <ul>
+                        <li>-<span>Informative articles</span> on mental health topics, written by experts and individuals who have experienced similar struggles</li>
+                        <li>-<span>Engaging videos</span> on mindfulness, self-care, and stress management techniques</li>
+                        <li>-<span>Practical exercises</span> and worksheets to help you develop coping strategies and resilience</li>
+                        <li>-<span>Personal stories</span> of hope and recovery, inspiring you to take control of your mental wellbeing</li>
+                        <li>-<span>Useful tips</span> and advice on maintaining a healthy work-life balance, relationships, and overall wellbeing</li>
+                    </ul>
+                </div>
             </div>
 
             <div className="goal">
-                <h1>Our Goal</h1>
-                <p>MindHeal aims to provide a supportive and non-judgmental space for individuals to explore their mental health, gain knowledge, and develop skills to manage their wellbeing. We are not a replacement for professional medical advice or therapy, but rather a complementary resource to help you take the first steps towards a healthier, happier you.</p>
+                <div>
+                    <h1>Our Goal</h1>
+                    <p>MindHeal aims to provide a supportive and non-judgmental space for individuals to explore their mental health, gain knowledge, and develop skills to manage their wellbeing. We are not a replacement for professional medical advice or therapy, but rather a complementary resource to help you take the first steps towards a healthier, happier you.</p>
+                </div>
+
+                <img className="goal-image" src={brainImage} alt="" />
             </div>
 
             <div className="expect">
-                <h1>What You Can Expect</h1>
-                <ul>
-                    <li>-A safe and anonymous space to explore your thoughts and feelings</li>
-                    <li>-Access to reliable and trustworthy information on mental health</li>
-                    <li>-A community that understands and supports your journey</li>
-                    <li>-Practical tools and resources to help you manage stress and anxiety</li>
-                    <li>-Inspiration and motivation to prioritize your mental wellbeing</li>
-                </ul>
+                <img className="expect-image" src={person} alt="" />
+                
+                <div>
+                    <h1>What You Can Expect</h1>
+                    <ul>
+                        <li>-A safe and anonymous space to explore your thoughts and feelings</li>
+                        <li>-Access to reliable and trustworthy information on mental health</li>
+                        <li>-A community that understands and supports your journey</li>
+                        <li>-Practical tools and resources to help you manage stress and anxiety</li>
+                        <li>-Inspiration and motivation to prioritize your mental wellbeing</li>
+                    </ul>
+                </div>
             </div>
 
             <div className="chatbot-container">
