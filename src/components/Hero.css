@@ -1,5 +1,6 @@
 .hero {
-    background-image: url("../images/beach.jpg");
+    /* background-image: url("../images/beach.jpg"); */
+    /* background-image: url("https://www.colorpsychology.org/wp-content/uploads/2023/03/brown-shades.jpg"); */
     height: 100vh;
     width: 100%;
     background-size: contain;
@@ -9,13 +10,14 @@
     display: flex;
     justify-content: end;
     align-items: flex-start;
+    background-color: brown;
 }
 
 .hero-container {
     margin: 100px 100px 0 0;
     margin: 110px auto;
-    border-radius: 5px;
-    background-color: white;
+    border-radius: 30px;
+    background-color: yellow;
     height: 50%;
     width: 30%;
     padding: 20px;
@@ -25,13 +27,19 @@
 }
 
 .headline {
-    color: rgb(255, 0, 0);
-    font-variant: small-caps;
+    /* color: rgb(255, 0, 0); */
+    color: brown;
+    font-family: papyrus, fantasy;
+    /* font-variant: small-caps; */
     font-size: 70px;
+    text-align: center;
 }
 
 .tagline {
-    color: #FF8000;
+    /* color: #FF8000; */
+    color: brown;
     font-size: 30px;
-    text-shadow: 3px  5px 10px whitesmoke;
+    font-size: larger;
+    text-align: center;
+    /* text-shadow: 3px  5px 10px whitesmoke; */
 }

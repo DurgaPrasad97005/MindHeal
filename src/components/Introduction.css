@@ -3,58 +3,89 @@
 }
 
 .intro {
-    background-color: #002183;
+    border-radius: 30px;
+    background-color: #f4a460 ;
     display: flex;
     justify-content: center;
     padding: 30px;
     margin: 50px auto;
 }
-
+/* 
 .intro > div {
     width: 40%;
-}
+    border-radius: 30px;
+} */
 
 .intro-image {
-    width: 400px;
+    height: 300px;
     margin-right: 20px;
+    border-radius: 30px;
 }
 
 .intro > div {
     background-color: whitesmoke;
-    border-radius: 5px;
+    border-radius: 30px;
     padding: 20px;
     width: 35%;
 }
 
 .intro > div > p {
-    font-size: larger;
+    font-size: large;
     margin-top: 10px;
 }
 
-.empower, .goal, .expect {
+.empower
+/* .goal,  */
+/* .expect */ {
     display: flex;
     align-items: center;
     padding: 20px;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
-    background-color: #ebeeff;
+    background-color: #f4a460 ;
     margin-top: 5px;
+    border-radius: 30px;
+}
+
+.introduction-sub-container {
+    background-color: #fcffa4;
+    display: flex;
+    width: 70%;
+    margin: 5px auto;
+    border-radius: 30px;
+}
+
+.goal {
+    width: 50%;
+    margin-right: 5px;
+    background-color: #f4a460 ;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.expect {
+    width: 50%;
+    background-color: #f4a460 ;
+    padding: 20px;
+    border-radius: 30px;
 }
 
 .empower-image {
     width: 300px;
     height: 300px;
     margin-right: 20px;
+    border-radius: 30px;
 }
 
 .empower p, 
 .empower ul, 
 .goal p, 
 .expect ul {
-    font-size: larger;
-    background-color: #ebeeff;
+    /* font-size: large; */
+    background-color: #f4a460 ;
     padding-top: 10px;
     border-radius: 5px;
+    border-radius: 30px;
 }
 
 .empower ul, .expect ul {
@@ -68,11 +99,13 @@
 .goal-image {
     width: 300px;
     margin-left: 20px;
+    border-radius: 30px;
 }
 
 .expect-image {
     width: 300px;
     margin-right: 20px;
+    border-radius: 30px;
 }
 
 .chatbot-btn, .chatbot-link {

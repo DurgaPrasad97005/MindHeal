@@ -1,14 +1,14 @@
 import React from "react";
-import Hero from "../components/Hero";
 import Introduction from "../components/Introduction";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar"
+import AboutHero from "../components/AboutHero";
 
 function Home() {
     return (
-        <div className="home">
+        <div className="home" style={{ backgroundColor: "lightbrown" }}>
             <Navbar />
-            <Hero />
+            <AboutHero />
             <Introduction />
             <Footer />
         </div>

@@ -7,10 +7,12 @@ function Introduction() {
     const empowerImage = "https://domf5oio6qrcr.cloudfront.net/medialibrary/14528/3f85b1b1-9dc7-4a90-855c-dc204646e889.jpg";
     const brainImage = "https://www.ualberta.ca/en/human-resources-health-safety-environment/media-library/communications/health/images/healthy-mind-header.jpg";
     const person = "https://homeforlifeadvantage.com/wp-content/uploads/2021/05/mental-health-blog.jpg";
+    const introBrain = "https://www.turnbridge.com/wp-content/uploads/2023/05/AdobeStock_474018927-scaled.jpeg";
+
     return (
         <div className="introduction">
             <div className="intro">
-                <img className="intro-image" src={imgurl} alt="" />
+                <img className="intro-image" src={introBrain} alt="" />
 
                 <div>
                     <h1>Introduction</h1>
@@ -34,27 +36,29 @@ function Introduction() {
                 </div>
             </div>
 
-            <div className="goal">
-                <div>
-                    <h1>Our Goal</h1>
-                    <p>MindHeal aims to provide a supportive and non-judgmental space for individuals to explore their mental health, gain knowledge, and develop skills to manage their wellbeing. We are not a replacement for professional medical advice or therapy, but rather a complementary resource to help you take the first steps towards a healthier, happier you.</p>
+            <div className="introduction-sub-container">
+                <div className="goal">
+                    <img className="goal-image" src={brainImage} alt="" />
+                    
+                    <div>
+                        <h1>Our Goal</h1>
+                        <p>MindHeal aims to provide a supportive and non-judgmental space for individuals to explore their mental health, gain knowledge, and develop skills to manage their wellbeing. We are not a replacement for professional medical advice or therapy, but rather a complementary resource to help you take the first steps towards a healthier, happier you.</p>
+                    </div>
                 </div>
 
-                <img className="goal-image" src={brainImage} alt="" />
-            </div>
-
-            <div className="expect">
-                <img className="expect-image" src={person} alt="" />
-                
-                <div>
-                    <h1>What You Can Expect</h1>
-                    <ul>
-                        <li>-A safe and anonymous space to explore your thoughts and feelings</li>
-                        <li>-Access to reliable and trustworthy information on mental health</li>
-                        <li>-A community that understands and supports your journey</li>
-                        <li>-Practical tools and resources to help you manage stress and anxiety</li>
-                        <li>-Inspiration and motivation to prioritize your mental wellbeing</li>
-                    </ul>
+                <div className="expect">
+                    <img className="expect-image" src={person} alt="" />
+                    
+                    <div>
+                        <h1>What You Can Expect</h1>
+                        <ul>
+                            <li>-A safe and anonymous space to explore your thoughts and feelings</li>
+                            <li>-Access to reliable and trustworthy information on mental health</li>
+                            <li>-A community that understands and supports your journey</li>
+                            <li>-Practical tools and resources to help you manage stress and anxiety</li>
+                            <li>-Inspiration and motivation to prioritize your mental wellbeing</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
