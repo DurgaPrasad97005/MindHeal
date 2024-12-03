@@ -1,35 +1,31 @@
 .resources-container {
-    background-color: #ebeeff;
-    margin: 10px 20px;
+    margin: 20px 0px;
     padding: 15px;
 }
 
 .resources-heading {
-    margin: 5px 0;
-    background-color: #002183;
-    color: whitesmoke;
-    width: fit-content;
-    padding: 3px 15px;
-    border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 .resources-description {
-    font-weight: bold;
-    margin: 10px 0;
+    margin-bottom: 20px;
 }
 
-.resources-section {
-    border: 1px solid black;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    border-radius: 5px;
+.carousel {
+    height: 300px;
+    width: 100%;
 }
 
 .resources-card {
-    border: 1px solid black;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
     padding: 10px;
     border-radius: 5px;
+    margin: 0 20px;
+}
+
+.youtube-video {
+    width: 300;
+    height: 200px;
 }
 
 .card-img {
